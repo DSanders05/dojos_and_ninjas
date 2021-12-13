@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.hero{padding: 1.5em;
+    background-color:dimgray ;
+    min-height: 300px;
+    width: 30%;
+}
+
+.hero h2{
+    color:cornflowerblue;
+}
+
+.dojo_list{
+    background-color: white;
+    min-height: 200px;
+    width: 100%;
+}
