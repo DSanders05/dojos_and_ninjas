@@ -25,3 +25,4 @@ class Ninja:
         query = "INSERT INTO ninjas (first_name, last_name, age, dojo_id) VALUES (%(first_name)s, %(last_name)s, %(age)s, %(dojo_id)s)"
         result = connectToMySQL('dojos_and_ninjas_schema').query_db(query, data)
         return result
+
